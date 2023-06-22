@@ -57,6 +57,7 @@ void limpartela(){
 }
 
 void menu(){
+    system("color 0D");//mudar a cor do terminar e caracteres
     bordasuperior();
     gotoxy(20,1);printf("Cadastro de Dados");
     gotoxy(0,1);printf("%c\n",186);
